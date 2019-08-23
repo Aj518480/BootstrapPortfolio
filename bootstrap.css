@@ -3,12 +3,27 @@
 }
 .lead{
     color:white;
-
 }
 
+.Name{
+    color:white;
+    text-align: center;
+}
+.Welcome{
+    color:white;
+}
 .Home{
     color:white;
+    margin: 0 10px 0 0;
     
+}
+.LinkedIn{
+    color:white;
+    margin: 0 10px 0 0;
+}
+.GitHub{
+    color:white;
+    margin: 0 10px 0 0;
 }
 .nav-item{
     color:white;
