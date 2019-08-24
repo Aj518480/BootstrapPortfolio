@@ -1,16 +1,21 @@
 .jumbotron{
     background-image:url(https://images6.alphacoders.com/440/thumb-1920-440360.jpg)
 }
-.lead{
+.Text{
     color:white;
+    font-family: 'Libre Baskerville', serif;
 }
 
 .Name{
     color:white;
     text-align: center;
+    font-family: 'IM Fell DW Pica SC', serif;
+    font-size:70px;
+    margin-bottom: 30px;
 }
 .Welcome{
     color:white;
+    font-family: 'Libre Baskerville', serif;
 }
 .Home{
     color:white;
@@ -28,3 +33,6 @@
 .nav-item{
     color:white;
 }
+/* font-family: 'IM Fell DW Pica SC', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'EB Garamond', serif;
