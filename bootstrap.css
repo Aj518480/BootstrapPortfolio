@@ -5,7 +5,9 @@
     color:white;
     font-family: 'Libre Baskerville', serif;
 }
-
+.button{
+    margin: 0 0 0 20px;
+}
 .Name{
     color:white;
     text-align: center;
@@ -32,6 +34,15 @@
 }
 .nav-item{
     color:white;
+}
+
+.Avatar{
+    border-radius: 50%;
+    
+}
+img{
+    width:286px;
+    height:190px;
 }
 /* font-family: 'IM Fell DW Pica SC', serif;
 font-family: 'Libre Baskerville', serif;
