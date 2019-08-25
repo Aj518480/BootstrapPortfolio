@@ -64,6 +64,12 @@ img{
     height:170px;
     margin-bottom: 10px;
 }
+
+.carousel-inner-active{
+
+margin: 0 auto;
+    
+  }
 /* font-family: 'IM Fell DW Pica SC', serif;
 font-family: 'Libre Baskerville', serif;
 font-family: 'EB Garamond', serif;
