@@ -75,6 +75,14 @@ margin: 0 auto;
     margin-bottom:20px;
 }
 
+.Updates{
+    color:white;
+    margin-top:10px;
+
+}
+footer{
+    position:sticky;
+}
 
 /* font-family: 'IM Fell DW Pica SC', serif;
 font-family: 'Libre Baskerville', serif;
