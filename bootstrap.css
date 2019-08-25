@@ -56,7 +56,9 @@ img{
     font-family: 'EB Garamond', serif;
 
 }
-
+.container{
+    border-radius: 25px;
+}
 
 .card-body{
     width:286px;
