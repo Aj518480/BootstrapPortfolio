@@ -59,7 +59,11 @@ img{
 .container{
     border-radius: 25px;
 }
+.carouselpic{
+    widows: 400px;
+    height:400px;
 
+}
 .card-body{
     width:286px;
     height:170px;
