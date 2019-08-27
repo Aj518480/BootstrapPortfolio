@@ -83,7 +83,11 @@ textarea{
 .Updates{
     color:white;
     margin-top:10px;
-
+}
+   
+    .no-gutters>.col, .no-gutters>[class*=col-] {
+     padding-right: 0; 
+    padding-left: 250px;
 }
 footer{
     position:sticky;
@@ -104,11 +108,16 @@ textarea{
     height:200px;
 }
 }
+
+@media only screen and (max-width: 768px) {
+   
+    
+}
 @media only screen and (max-width: 375px) {
-    .no-gutters>.col {
-        padding-right: 250px;
-        padding-left:0;
-        
+    
+    .no-gutters>.col, .no-gutters>[class*=col-] {
+        padding-right: 0;
+        padding-left: -250px;
     }
 }
 /* font-family: 'IM Fell DW Pica SC', serif;
