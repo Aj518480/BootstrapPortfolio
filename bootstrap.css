@@ -5,10 +5,6 @@
     color:white;
     font-family: 'Libre Baskerville', serif;
 }
-.button{
-    margin: 0 0 0 20px;
-    padding-right:50px;
-}
 .Name{
     color:white;
     text-align: center;
@@ -67,7 +63,7 @@ img{
 .card-body{
     width:286px;
     height:170px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
 }
 
 .carousel-inner-active{
@@ -75,9 +71,14 @@ img{
 margin: 0 auto;
     
   }
-.col-4{
-    margin-bottom:20px;
+
+textarea{
+    width:1110px;
+    height:200px;
 }
+/* .col-4{
+    margin-bottom:20px;
+} */
 
 .Updates{
     color:white;
@@ -88,30 +89,40 @@ footer{
     position:sticky;
 }
 
+.no-gutters>.col, .no-gutters>[class*=col-] {
+    padding-right: 0;
+    padding-left: 250px;
+}
+
 @media only screen and (max-width: 980px) {
 
-    img {
+    /* img {
         width: 200px;
         height:150px;
-    }
+        padding:5px;
+    } */
 
-    .card{
+    /* .card{
         width:200;
         height:300;
+        padding:5px;
+    } */
+        
 
     }
-    .card-text{
+    /* .card-text{
         width:190px;
         height:200px;
-    }
+        padding:5px;
 
-    .button{
-        
-        padding-right:50px;
-    }
+    } */
 
 
+textarea{
+    width:690;
+    height:200px;
 }
+
 /* font-family: 'IM Fell DW Pica SC', serif;
 font-family: 'Libre Baskerville', serif;
 font-family: 'EB Garamond', serif;/*
