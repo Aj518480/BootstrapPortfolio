@@ -89,10 +89,7 @@ footer{
     position:sticky;
 }
 
-.no-gutters>.col, .no-gutters>[class*=col-] {
-    padding-right: 0;
-    padding-left: 250px;
-}
+
 
 @media only screen and (max-width: 980px) {
 
