@@ -71,4 +71,5 @@ footer{
     border-top:solid #4aaaa5 10px;
     padding-top:10px;
     color:#ffffff;
+     position:sticky;
 }

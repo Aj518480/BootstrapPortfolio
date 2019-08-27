@@ -144,15 +144,15 @@
         <hr>
     </div>
 
-    <div class="container">
+    <div class="container-fluid p-3">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container">
                 <h2 class="Headings">Portfolio:</h2>
             </div>
         </nav>
         <br>
-        <div class="row">
-            <div class="col-4">
+        <div class="row mt-2 no-gutters align-items-center">
+            <div class="col col-md-12 col-sm-12">
 
                 <div class="card" style="width: 18rem;">
                     <img src="https://i.pinimg.com/originals/d0/d3/4d/d0d34da283483ebaa6cd0e80d7bc6cf1.png"
@@ -160,12 +160,12 @@
                     <div class="card-body">
                         <p class="card-text">A,L,I.. Uh Oh! You already have head and a body. Be careful what you guess
                             next. Come try the Hangman Game.</p>
-                        <button type="button1" class="btn btn-success">Let's Play</button>
+                        
                     </div>
                 </div>
 
             </div>
-            <div class="col-4">
+            <div class="col col-md-12 col-sm-12">
 
                 <div class="card" style="width: 18rem;">
                     <img src="https://mondrian.mashable.com/wp-content%252Fgallery%252Fmashable_best_rpgs%252FSecretOfMana.jpg%252Ffit-in__850x850.jpg?signature=zGOayPGkWy17Bf61LtrL2TzJs3Y=&source=https%3A%2F%2Fmashable.com"
@@ -173,28 +173,28 @@
                     <div class="card-body">
                         <p class="card-text">Like to power up? This is the game for you! Play my RPG game. Let me know
                             what you think in the "Contact Me" section</p>
-                        <button type="button2" class="btn btn-success">Let's Play</button>
+                        
                     </div>
                 </div>
 
             </div>
-            <div class="col-4">
+            <div class="col col-md-12 col-sm-12">
 
                 <div class="card" style="width: 18rem;">
                     <img src="http://www.mayfairrealty.com/mayfair/cache/file/BEB13628-5056-A830-8CFF82CF87E1928D.jpg"
                         class="trivia" alt="trivia">
                     <div class="card-body">
                         <p class="card-text">Need to brush up on your Trivia??? You think you have what it takes to beat
-                            my trivia game. Click the button below! </p>
-                        <button type="button3" class="btn btn-success">Let's Play</button>
+                            my trivia game. Click here to check it out! </p>
+                        
                     </div>
                 </div>
 
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-4">
+        <div class="row mt-2 no-gutters">
+            <div class="col-md-12 col-sm-12">
 
                 <div class="card" style="width: 18rem;">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/61DTAEzk0pL._SX466_.jpg"
@@ -202,7 +202,7 @@
                     <div class="card-body">
                         <p class="card-text">Ever need a widget for Rutgers University?? Look no further! Let me know
                             what you think in the "Contact Me" Section </p>
-                        <button type="button3" class="btn btn-success">Let's Play</button>
+                        
                     </div>
 
 
@@ -210,7 +210,7 @@
 
             </div>
 
-            <div class="col-4">
+            <div class="col-md-12 col-sm-12">
 
                 <div class="card" style="width: 18rem;">
                     <img src="https://i.ytimg.com/vi/AnRYS02tvRA/maxresdefault.jpg" class="rockpaperscissors"
@@ -218,13 +218,15 @@
                     <div class="card-body">
                         <p class="card-text">Do you have what it takes to be the ulimate Rock, Paper, Scissors Champion!
                             Who doesn't want those bragging rights? </p>
-                        <button type="button3" class="btn btn-success">Let's Play</button>
+                        
                     </div>
 
 
                 </div>
 
             </div>
+
+            
         </div>
         <br>
         <hr>
@@ -243,8 +245,10 @@
             </div>
             <label for="Message">Message:</label>
             <br>
-            <textarea id="Message" name="subject" placeholder="Questions? Just want to say Hi! Type it here"
-                style="height:200px; Width:1110px;"></textarea>
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
             <br>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
